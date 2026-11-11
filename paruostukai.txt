@@ -1,0 +1,40 @@
+SVETAINĖ SU CHATGPT – UŽKLAUSŲ PARUOŠTUKAI
+Tomas Morkūnas · FAD · Panevėžio Spiečius · 2026-11-18
+
+1. SURINKITE FAKTUS
+
+Padėk paruošti svetainę mano verslui. Veikla: [įrašykite]. Lankytojas: [kas ieško ir ko jam reikia]. Norimas veiksmas: [užklausa, skambutis ar kitas veiksmas]. Pridedu turimą informaciją ir nuotraukas.
+Pirmiausia susistemink patvirtintus faktus, trūkstamą informaciją ir klausimus man. Nekurk kainų, atsiliepimų, skaičių ar paslaugų, kurių nepatvirtinau. Kol kas nekoduok.
+
+----------------
+
+2. SUTARKITE DĖL STRUKTŪROS IR TEKSTŲ
+
+Pagal patvirtintus faktus pasiūlyk [vieno arba dviejų] puslapių struktūrą. Kiekvienam blokui parašyk, į kokį lankytojo klausimą jis atsako. Paruošk trumpas antraštes, aprašymus ir vieną aiškų pagrindinį veiksmą. Atskirai surašyk, ką turiu patikslinti. Kol kas nekoduok.
+
+----------------
+
+3. PASIRINKITE DIZAINO KRYPTĮ
+
+Pasiūlyk dvi aiškiai skirtingas dizaino kryptis pagal patvirtintą turinį ir mano nuotraukas. Aprašyk šriftą, spalvas, pirmą ekraną ir vaizdą telefone. Venk dekoratyvių 01/02/03, bereikalingų užrašų virš antraščių, kapsulių, rodyklių mygtukuose ir vienodų kortelių. Numeruok tik tikrą veiksmų seką. Pasiūlyk, kuri kryptis labiau tinka lankytojui, ir paaiškink kodėl. Kol kas nekoduok.
+
+----------------
+
+4. SUKURKITE FAILUS
+
+Dizaino kryptį [A arba B] patvirtinu. Sukurk svetainę lietuviškai pagal patvirtintus faktus, tekstus ir dizainą. Naudok paprastą HTML, CSS ir tik būtiną JavaScript, be React, npm ar surinkimo įrankių.
+Pateik index.html [ir sales.html, jei reikia antro puslapio]. Stilius laikyk HTML viduje, nuotraukas – images aplanke. Naudok santykines nuorodas, kad svetainė veiktų ir GitHub Pages projekto poaplankyje. Išlaikyk nuotraukų proporcijas, įdėk prasmingus alt tekstus ir mobilų išdėstymą.
+Kontaktui naudok tik mano patvirtintą el. pašto adresą arba telefoną. Jei nėra veikiančios formos apdorojimo paslaugos, nedėk tariamai veikiančios formos. Tai mokomasis prototipas: pridėk noindex žymą. Pateik visus reikalingus failus.
+
+----------------
+
+5. ĮVERTINKITE IR PATAISYKITE
+
+Įvertink svetainę mano kliento akimis. Nurodyk, ką iš tikrųjų galėjai peržiūrėti ar patikrinti. Įvertink pasiūlymo aiškumą, teksto skaitomumą, tikrus pasitikėjimo įrodymus, kontaktą ir vaizdą telefone. Pateik iki 3 svarbiausių pataisų, paaiškink, kodėl jų reikia. Mano pastabos: [įrašykite].
+Patvirtinta pataisa: [konkreti vieta ir pakeitimas]. Pakeisk tik ją, išsaugok likusį patvirtintą turinį. Parašyk, kaip rezultatą patikrinti.
+
+----------------
+
+6. PASIRUOŠKITE PASKELBTI
+
+Patikrink paruoštų failų struktūrą prieš GitHub Pages publikavimą: index.html turi būti šaknyje, keliai turi būti santykiniai, failų vardų didžiosios ir mažosios raidės turi sutapti. Išvardyk, kuriuos failus įkelti ir ką patikrinti viešu adresu. Nerašyk, kad publikavimas pavyko, jei jo negalėjai patikrinti.
