@@ -1,40 +1,163 @@
-SVETAINĖ SU CHATGPT – UŽKLAUSŲ PARUOŠTUKAI
-Tomas Morkūnas · FAD · Panevėžio Spiečius · 2026-11-18
+Svetainės kūrimo ir paleidimo instrukcija
 
-1. SURINKITE FAKTUS
+Tomas Morkūnas · FAD · Panevėžio „Spiečius“ · 2026-11-18
+
+Medžiaga skirta mokymų dalyviams ir svetainėje bus pasiekiama savaitę po mokymų – iki 2026 m. lapkričio 25 d. 16:00 (Lietuvos laiku). Iki tol išsisaugokite visą instrukciją. Prašau nuorodos viešai neplatinti.
+
+Užklausos ChatGPT ir visas kelias nuo failų gavimo iki paskelbimo: mokomasis GitHub Pages bandymas arba pasirinktas hostingas su savu domenu.
+
+Užklausos ChatGPT
+
+Laužtiniuose skliaustuose įrašykite savo informaciją. Prieš kitą žingsnį perskaitykite ir patvirtinkite rezultatą.
+
+Surinkite faktus
 
 Padėk paruošti svetainę mano verslui. Veikla: [įrašykite]. Lankytojas: [kas ieško ir ko jam reikia]. Norimas veiksmas: [užklausa, skambutis ar kitas veiksmas]. Pridedu turimą informaciją ir nuotraukas.
 Pirmiausia susistemink patvirtintus faktus, trūkstamą informaciją ir klausimus man. Nekurk kainų, atsiliepimų, skaičių ar paslaugų, kurių nepatvirtinau. Kol kas nekoduok.
 
-----------------
-
-2. SUTARKITE DĖL STRUKTŪROS IR TEKSTŲ
+Sutarkite dėl struktūros ir tekstų
 
 Pagal patvirtintus faktus pasiūlyk [vieno arba dviejų] puslapių struktūrą. Kiekvienam blokui parašyk, į kokį lankytojo klausimą jis atsako. Paruošk trumpas antraštes, aprašymus ir vieną aiškų pagrindinį veiksmą. Atskirai surašyk, ką turiu patikslinti. Kol kas nekoduok.
 
-----------------
-
-3. PASIRINKITE DIZAINO KRYPTĮ
+Pasirinkite dizaino kryptį
 
 Pasiūlyk dvi aiškiai skirtingas dizaino kryptis pagal patvirtintą turinį ir mano nuotraukas. Aprašyk šriftą, spalvas, pirmą ekraną ir vaizdą telefone. Venk dekoratyvių 01/02/03, bereikalingų užrašų virš antraščių, kapsulių, rodyklių mygtukuose ir vienodų kortelių. Numeruok tik tikrą veiksmų seką. Pasiūlyk, kuri kryptis labiau tinka lankytojui, ir paaiškink kodėl. Kol kas nekoduok.
 
-----------------
-
-4. SUKURKITE FAILUS
+Sukurkite failus
 
 Dizaino kryptį [A arba B] patvirtinu. Sukurk svetainę lietuviškai pagal patvirtintus faktus, tekstus ir dizainą. Naudok paprastą HTML, CSS ir tik būtiną JavaScript, be React, npm ar surinkimo įrankių.
 Pateik index.html [ir sales.html, jei reikia antro puslapio]. Stilius laikyk HTML viduje, nuotraukas – images aplanke. Naudok santykines nuorodas, kad svetainė veiktų ir GitHub Pages projekto poaplankyje. Išlaikyk nuotraukų proporcijas, įdėk prasmingus alt tekstus ir mobilų išdėstymą.
 Kontaktui naudok tik mano patvirtintą el. pašto adresą arba telefoną. Jei nėra veikiančios formos apdorojimo paslaugos, nedėk tariamai veikiančios formos. Tai mokomasis prototipas: pridėk noindex žymą. Pateik visus reikalingus failus.
 
-----------------
-
-5. ĮVERTINKITE IR PATAISYKITE
+Įvertinkite ir pataisykite
 
 Įvertink svetainę mano kliento akimis. Nurodyk, ką iš tikrųjų galėjai peržiūrėti ar patikrinti. Įvertink pasiūlymo aiškumą, teksto skaitomumą, tikrus pasitikėjimo įrodymus, kontaktą ir vaizdą telefone. Pateik iki 3 svarbiausių pataisų, paaiškink, kodėl jų reikia. Mano pastabos: [įrašykite].
 Patvirtinta pataisa: [konkreti vieta ir pakeitimas]. Pakeisk tik ją, išsaugok likusį patvirtintą turinį. Parašyk, kaip rezultatą patikrinti.
 
-----------------
-
-6. PASIRUOŠKITE PASKELBTI
+Pasiruoškite paskelbti
 
 Patikrink paruoštų failų struktūrą prieš GitHub Pages publikavimą: index.html turi būti šaknyje, keliai turi būti santykiniai, failų vardų didžiosios ir mažosios raidės turi sutapti. Išvardyk, kuriuos failus įkelti ir ką patikrinti viešu adresu. Nerašyk, kad publikavimas pavyko, jei jo negalėjai patikrinti.
+
+Ką daryti gavus sukurtą svetainę?
+
+Šis kelias skirtas paprastai HTML svetainei. Jums reikės jos failų, nuotraukų, savo paskyros pasirinktame talpinime ir, verslo svetainei, domeno. Mokymuose procesą stebėjote; dabar jį galite pakartoti su savo turiniu. Pirmą bandymą darykite atskirai nuo jau veikiančios verslo svetainės.
+
+Failai, hostingas ir domenas
+
+- Failai – svetainės tekstai, išdėstymas ir veikimas: HTML, CSS, prireikus JavaScript ir nuotraukos.
+- Hostingas – talpinimo paslauga, iš kurios lankytojo naršyklė gauna svetainės failus.
+- Domenas – Jūsų pasirinktas interneto adresas. Nusipirkti domeną dar nereiškia įkelti svetainę.
+- GitHub – failų ir pakeitimų istorijos saugykla. GitHub Pages – atskira funkcija, paskelbianti statinę svetainę viešu adresu.
+
+1. Pirmiausia išsisaugokite failus
+
+1. Paprašykite pateikti visus svetainės failus atsisiųsti, geriausia viename ZIP archyve. Vien ekrano nuotraukos ar pokalbio teksto neužtenka.
+2. Išskleiskite ZIP savo kompiuteryje. Pagrindinis failas turi vadintis index.html. Jei sukūrėte antrą puslapį, išsaugokite ir jį, pavyzdžiui, sales.html.
+3. Išlaikykite nuotraukų aplanką images ir originalius failų vardus. Jei pateikti atskiri CSS ar JavaScript failai, reikės ir jų.
+4. Atverkite index.html naršyklėje ir apžiūrėkite tekstus, nuotraukas, nuorodas. Vietinė peržiūra nepakeičia patikros viešu adresu.
+5. Visą pradinį rinkinį išsisaugokite su data. Vėliau turėsite, į ką grįžti po nesėkmingos pataisos.
+
+Ši instrukcija neskirta projektui, kuriam reikia React, npm, serverio programos ar duomenų bazės. Tokiu atveju paprašykite atskiros paleidimo instrukcijos pagal tikrą projekto struktūrą.
+
+2. Pasirinkite talpinimo kelią
+
+Mokomajam bandymui – GitHub Pages. Galite paskelbti statinius failus ir parodyti rezultatą telefonu, nepirkdami atskiro domeno. Viešoje saugykloje nekaupkite prisijungimų ar privačių duomenų. GitHub Pages nėra universalus nemokamas verslo hostingas: jo naudojimui taikomi komercinės veiklos apribojimai.
+
+Verslo svetainei – jos paskirčiai tinkamas hostingas. Šioje instrukcijoje rodome rankinį HTML failų įkėlimą. Rinkitės planą, kuris leidžia įkelti savo failus, prijungti domeną ir naudoti HTTPS. Hostinger pateikiamas kaip konkretus pavyzdys; galite rinktis kitą tiekėją.
+
+Oficialios naudojimo ribos: GitHub Pages limits: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits.
+
+3. Mokomasis kelias: GitHub Pages
+
+1. Prisijunkite prie savo GitHub paskyros. Sukurkite naują viešą saugyklą tik šiam bandymui. Galite pridėti README, kad būtų sukurta pradinė main atšaka.
+2. Pasirinkite Add file → Upload files. Įkelkite išskleistus failus ir nuotraukų aplanką. index.html turi būti saugyklos pradžioje, ne papildomame ZIP vardu pavadintame aplanke. Išsaugokite per Commit changes.
+3. Eikite į Settings → Pages. Pasirinkite Deploy from a branch, atšaką su failais ir /(root). Spauskite Save.
+4. Sulaukite sėkmingo paskelbimo ir atverkite Pages skiltyje nurodytą adresą. Pakeitimai gali pasirodyti per 10 minučių.
+5. Patikrinkite svetainę telefonu. Pataisytus failus kelkite į tą pačią publikuojamą atšaką. Naujas įrašas saugykloje ir viešai paskelbta versija – du atskiri žingsniai.
+
+Mokymų demonstracijoje naudojama mokymai atšaka; savo projekte galite naudoti main. Paprašykite santykinių nuorodų, kad nuotraukos ir antras puslapis veiktų ir projekto poaplankyje.
+
+Oficialiai: svetainės sukūrimas: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site, publikavimo šaltinis: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.
+
+4. Kaip pasirinkti ir nusipirkti hostingą
+
+Prieš rinkdamiesi planą
+
+- Ar galite įkelti savo HTML failus per failų tvarkyklę arba SFTP? Vien svetainių konstruktoriaus prenumerata nebūtinai tam tinka.
+- Ar planas palaiko Jūsų domeną ir HTTPS? Kaip aktyvuojamas sertifikatas?
+- Ar yra atsarginės kopijos, kiek laiko jos saugomos ir kaip atkuriamos?
+- Kokia pagalba įtraukta? Ar ji apima tik talpinimą, ar ir Jūsų kodo taisymą?
+- Ar el. paštas įtrauktas? Jei taip, kokiam laikui ir kokia pratęsimo kaina?
+
+Pirkimo eiga
+
+1. Tiekėjo svetainėje pasirinkite planą, leidžiantį talpinti savo HTML failus. Paprastam šių mokymų puslapiui nereikia specialiai diegti WordPress.
+2. Pasirinkite atsiskaitymo laikotarpį. Palyginkite ne tik reklaminę mėnesio kainą, bet ir šiandien mokamą sumą, laikotarpį bei pratęsimo kainą.
+3. Nuspręskite dėl domeno. Jei jį jau turite, pasirinkite turimo domeno prijungimą; nepirkite pakaitinio vien todėl, kad jį siūlo krepšelis. Jei perkate naują, patikrinkite jo kainą ir vėlesnių metų pratęsimą.
+4. Sukurkite paskyrą savo arba įmonės vardu. Išsaugokite prisijungimą ir įjunkite papildomą prisijungimo patvirtinimą, jei jis siūlomas.
+5. Peržiūrėkite krepšelį: mokesčius, papildomus priedus, automatinį pratęsimą ir galutinę sumą. Pašalinkite nereikalingus priedus.
+6. Tik patikrinę apmokėkite užsakymą. Išsisaugokite sąskaitą, paslaugų pavadinimus ir pratęsimo datas.
+
+Skaičiavimo pavyzdys, ne tiekėjo pasiūlymas: 3 €/mėn. ekvivalentas, pasirinkus 36 mėnesius, reiškia 108 € už visą laikotarpį. Jei vėliau paslauga kainuotų 8 €/mėn., 12 mėnesių kainuotų 96 €. Atskirai patikrinkite domeną, mokesčius ir priedus. Tikros kainos tikrinamos pirkimo metu.
+
+5. Įkelkite HTML svetainę: Hostinger pavyzdys
+
+Pavadinimai gali skirtis pagal paskyros kalbą ir valdymo skydelio versiją. Jei turite veikiančią svetainę, pirmą bandymą kurkite atskirai ir jos failų neperrašykite.
+
+1. Valdymo skydelyje atverkite Websites → Create site. Pasirinkite tinkamą planą ir Custom PHP/HTML. Tai kelias Jūsų failams; WordPress arba AI konstruktorius nėra būtinas.
+2. Pagal vedlį pasirinkite turimą, naują arba laikiną domeną. Laikinas adresas naudingas rezultatui patikrinti prieš nukreipiant esamą domeną.
+3. Atverkite konkrečios svetainės valdymą, tada Files → File Manager. Raskite būtent tos svetainės public_html aplanką.
+4. Įkelkite failus. ZIP išskleiskite taip, kad index.html būtų tiesiogiai public_html, šalia antro puslapio ir images aplanko. Atsarginio ZIP su kitais duomenimis nepalikite viešame aplanke.
+5. Jei keičiate esamus failus, pirmiausia išsisaugokite ankstesnę versiją. Naujesnėje failų tvarkyklėje redaguotiems, naujai sukurtiems ar pervadintiems failams gali reikėti Deploy; įkėlimo ir išskleidimo veiksmai taikomi iškart. Patikrinkite tikrą paskelbimo būseną.
+6. Atverkite svetainės adresą ir patikrinkite abu puslapius, nuotraukas bei kontaktą. Perkėlimas savaime nesukuria WordPress valdymo ar veikiančios užklausos formos.
+
+Oficialiai: svetainės pridėjimas: https://www.hostinger.com/support/1583214-how-to-add-a-website-in-hostinger/, failų tvarkyklė: https://www.hostinger.com/support/4548688-basic-actions-in-the-file-manager-in-hostinger/, svetainės pagrindinis aplankas: https://www.hostinger.com/support/1583494-what-is-the-path-to-your-website-s-root-home-directory-and-how-to-change-it-in-hostinger/, failų įkėlimas iš archyvo: https://www.hostinger.com/support/how-to-upload-a-website-from-backups/.
+
+6. Prijunkite domeną ir patikrinkite HTTPS
+
+1. Domeną registruokite savo arba įmonės paskyroje. Jei jis jau priklauso Jums, prisijunkite prie dabartinio registratoriaus. Domenas ir hostingas gali būti pas skirtingus tiekėjus.
+2. Hostingo valdymo skydelyje raskite konkretaus domeno prijungimo instrukciją. Joje bus nurodyta, ar keisti vardų serverius, ar DNS įrašus. Naudokite ten pateiktas reikšmes, ne svetimą IP adresą iš pavyzdžio.
+3. Jei tuo domenu veikia el. paštas, prieš keisdami DNS išsisaugokite jo MX ir TXT įrašus bei kitus reikalingus nustatymus. Keičiant vardų serverius juos gali reikėti perkelti. Jei neaišku, paprašykite tiekėjo patikrinti prieš pakeitimą.
+4. Atlikę nurodytus pakeitimus palaukite, kol jie įsigalios. Patikrinkite domeno prijungimo būseną valdymo skydelyje.
+5. Pagal tiekėjo instrukciją aktyvuokite arba patikrinkite HTTPS sertifikatą. Atverkite https:// adresą ir patikrinkite, ar nėra saugumo klaidos, ar veikia Jūsų naudojami adresai su www ir be jo.
+
+Oficialiai: domeno nukreipimas: https://www.hostinger.com/support/1863967-how-to-point-a-domain-to-hostinger/. DNS pakeitimas nėra vien adreso pervadinimas – juo gali būti paveiktos ir kitos domeno paslaugos.
+
+7. Patikra prieš dalijantis nuoroda
+
+- Pirmame ekrane aišku, ką siūlote, kam ir kur.
+- Kainos, sąlygos, kontaktai ir teiginiai patvirtinti; nuotraukas turite teisę naudoti.
+- Nuotraukos atsidaro, nėra ištemptos; meniu ir nuorodos veda į reikiamas vietas.
+- Telefone nereikia slinkti į šonus, tekstas skaitomas, mygtukus patogu paspausti.
+- Kontaktinis mygtukas atveria teisingą gavėją. Laiško lango atidarymas dar nėra laiško išsiuntimas.
+- Jei naudojate formą, yra realus jos apdorojimo sprendimas ir patikrintas užklausos gavimas. Vien HTML forma neužtikrina laiško pristatymo.
+- Kitas žmogus per 60 sekundžių randa paslaugą ir būdą susisiekti be Jūsų pagalbos.
+- Aišku, kas atnaujins informaciją, prižiūrės užklausas ir galės grąžinti ankstesnę versiją.
+
+Mokomajame prototipe palikite noindex. Paruošę tikrą viešą verslo svetainę, indeksavimo nustatymus peržiūrėkite atskirai. noindex nėra prieigos apsauga. Prieš įjungdami formas ar matavimo įrankius pasirūpinkite jų duomenų tvarkymo nustatymais ir reikalinga informacija lankytojui.
+
+8. Jei svetainė neveikia
+
+- Rodoma sena versija: patikrinkite, ar pakeitimas įrašytas ir paskelbtas; ar keliate į teisingą atšaką arba svetainės aplanką. Tada atnaujinkite naršyklę arba patikrinkite privačiame lange.
+- Nėra nuotraukų: ar įkėlėte images aplanką, ar sutampa failų vardai ir didžiosios bei mažosios raidės? Ar nuoroda nėra į Jūsų kompiuterio failą?
+- Rodoma 404 klaida: ar yra index.html tinkamame aplanke? Ar teisingas antro puslapio vardas ir nuoroda į jį?
+- Domenas neatveria svetainės: patikrinkite domeno ir DNS būseną pagal tiekėjo instrukciją; nekeiskite visų nustatymų iš eilės.
+- Forma nesiunčia: patikrinkite, ar apskritai prijungtas užklausų apdorojimas. Mygtuko animacija ar sėkmės pranešimas nėra pristatymo įrodymas.
+
+Klauskite pagal konkrečią būseną: pateikite adresą, klaidos tekstą, ekrano vaizdą ir ką jau patikrinote. Nesidalykite slaptažodžiais, mokėjimo duomenimis ar privačiais raktais.
+
+9. Kaip vėliau atnaujinti vieną sakinį
+
+1. Atsisiųskite dabar veikiančios svetainės kopiją. Išsaugokite ją atskirai su data.
+2. Nurodykite vieną tikslią pataisą: kuriame puslapyje, kurį tekstą ir į ką pakeisti. Paprašykite išsaugoti likusį turinį.
+3. Peržiūrėkite pataisytą failą ir įkelkite jį į tą pačią vietą, iš kurios svetainė publikuojama. Patikrinkite paskelbimo būseną.
+4. Viešu adresu patikrinkite pakeistą vietą ir pagrindines nuorodas. Jei rezultatas blogas, grąžinkite išsaugotą ankstesnę failo versiją.
+
+Vieno sakinio pakeitimui nereikia iš naujo kurti visos svetainės. Turėkite vieną aiškią naujausios versijos vietą, kad vėliau neįkeltumėte senų failų.
+
+Užklausa pagalbai su talpinimu
+
+Turiu paprastą HTML svetainę. Failai: [išvardykite]. Pasirinktas hostingas: [tiekėjas ir planas]. Domenas: [turimas / dar nepirktas]. Dabar esu šiame žingsnyje: [aprašykite].
+Patikrink aktualią oficialią tiekėjo instrukciją. Paaiškink kitą konkretų veiksmą ir kaip patikrinsiu, ar jis pavyko. Jei nepakanka informacijos, pasakyk, kokio ekrano vaizdo ar failų sąrašo reikia. Neprašyk slaptažodžių. Nieko nepirk, nekeisk DNS ir neperrašyk veikiančios svetainės be mano aiškios užduoties. Nevadink svetainės paskelbta, kol to nepatikrinai.
+
+Instrukcija patikrinta 2026-11-11. Tiekėjų meniu ir planai gali keistis; aktualias reikšmes bei kainas tikrinkite savo paskyroje. Jei sustojote, kreipdamiesi nurodykite konkretų žingsnį ir pridėkite svetainės nuorodą: FAD svetainė ir kontaktai: https://www.fad.lt/.
